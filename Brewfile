@@ -4,7 +4,6 @@ tap "homebrew/services"
 brew "arp-scan"
 brew "coreutils"
 brew "dua-cli"
-brew "exa"
 brew "ffmpeg"
 brew "fzf"
 brew "git"
@@ -35,7 +34,6 @@ cask "battery"
 cask "blockblock"
 cask "brave-browser"
 cask "canva"
-cask "cardhop"
 cask "clean-me"
 cask "cloudflare-warp"
 cask "codeedit"
@@ -67,7 +65,6 @@ cask "notion"
 cask "onyx"
 cask "oversight"
 cask "protonvpn"
-cask "ransomwhere"
 cask "rectangle"
 cask "shottr"
 cask "utm"
@@ -79,6 +76,5 @@ mas "Bitwarden", id: 1352778147
 mas "Prime Video", id: 545519333
 mas "Pure Paste", id: 1611378436
 mas "Slack", id: 803453959
-mas "Speediness", id: 1596706466
 mas "Todoist", id: 585829637
 vscode "dracula-theme.theme-dracula"
