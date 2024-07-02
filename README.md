@@ -1,5 +1,5 @@
 # .dotfiles
-My dotfile configurations (following [@marcogreiveldinger example](https://github.com/marcogreiveldinger/.dotfiles))
+My dotfile configurations (following [@marcogreiveldinger setup](https://github.com/marcogreiveldinger/.dotfiles))
 
 ## Prerequisites:
 - [Homebrew](https://brew.sh/)
