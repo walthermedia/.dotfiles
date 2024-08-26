@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 brew "arp-scan"
 brew "bash-completion"
+brew "bat"
 brew "coreutils"
 brew "dua-cli"
 brew "eza"
@@ -46,6 +47,7 @@ cask "discord"
 cask "dracula-terminal"
 cask "exifcleaner"
 cask "fantastical"
+cask "firefox"
 cask "font-caskaydia-mono-nerd-font"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
@@ -64,7 +66,7 @@ cask "keka"
 cask "keyclu"
 cask "latest"
 cask "ledger-live"
-cask "logi-options-plus"
+cask "logi-options+"
 cask "lulu"
 cask "microsoft-edge"
 cask "mist"
@@ -82,7 +84,7 @@ mas "Adblock Plus", id: 1432731683
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
 mas "Bitwarden", id: 1352778147
-mas "Ghostery – Privacy Ad Blocker", id: 1436953057
+mas "Ghostery Privacy Ad Blocker", id: 6504861501
 mas "Pixelmator Pro", id: 1289583905
 mas "Prime Video", id: 545519333
 mas "Pure Paste", id: 1611378436
