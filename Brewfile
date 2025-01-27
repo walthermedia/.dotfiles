@@ -22,7 +22,6 @@ brew "ipcalc"
 brew "lsd"
 brew "mas"
 brew "nmap"
-brew "pinentry-mac"
 brew "pkgconf"
 brew "pyenv"
 brew "starship"
@@ -57,7 +56,6 @@ cask "font-jetbrains-mono-nerd-font"
 cask "font-meslo-lg-nerd-font"
 cask "font-roboto-mono-nerd-font"
 cask "fork"
-cask "gpg-suite-no-mail"
 cask "handbrake"
 cask "hiddenbar"
 cask "iina"
@@ -82,6 +80,7 @@ cask "ransomwhere"
 cask "rectangle"
 cask "shottr"
 cask "silentknight"
+cask "sloth"
 cask "utm"
 cask "visual-studio-code"
 cask "zoom"
@@ -93,6 +92,7 @@ mas "Bitwarden", id: 1352778147
 mas "Flighty", id: 1358823008
 mas "Ghostery Privacy Ad Blocker", id: 6504861501
 mas "NBA 2K25 Arcade Edition", id: 6504000920
+mas "Numbers", id: 409203825
 mas "Pixelmator Pro", id: 1289583905
 mas "Prime Video", id: 545519333
 mas "Pure Paste", id: 1611378436
