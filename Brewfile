@@ -1,6 +1,3 @@
-tap "dracula/install"
-tap "homebrew/bundle"
-tap "homebrew/services"
 brew "arp-scan"
 brew "bash-completion"
 brew "bat"
@@ -33,21 +30,17 @@ brew "xxh"
 brew "yadm"
 brew "zsh"
 brew "zsh-completions"
-cask "applite"
+cask "alacritty"
 cask "asana"
 cask "blockblock"
 cask "brave-browser"
 cask "canva"
+cask "claude"
 cask "cloudflare-warp"
 cask "codeedit"
-cask "copilot"
+cask "copilot-money"
 cask "coteditor"
-cask "cursor"
 cask "discord"
-cask "dracula-terminal"
-cask "equinox"
-cask "exifcleaner"
-cask "firefox"
 cask "font-caskaydia-mono-nerd-font"
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
@@ -56,53 +49,29 @@ cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-meslo-lg-nerd-font"
 cask "font-roboto-mono-nerd-font"
-cask "fork"
 cask "hiddenbar"
-cask "iterm2"
 cask "itsycal"
-cask "keyclu"
 cask "knockknock"
-cask "latest"
 cask "ledger-live"
 cask "logi-options+"
 cask "lulu"
-cask "metaz"
 cask "microsoft-edge"
-cask "mist"
 cask "monitorcontrol"
 cask "mos"
 cask "neo-network-utility"
 cask "netiquette"
 cask "notion"
-cask "onyx"
 cask "pearcleaner"
-cask "pika"
 cask "ransomwhere"
 cask "rectangle"
-cask "shottr"
 cask "silentknight"
 cask "sloth"
-cask "utm"
-cask "visual-studio-code"
 cask "zoom"
 mas "Adblock Plus", id: 1432731683
-mas "Amphetamine", id: 937984704
-mas "Apple Configurator", id: 1037126344
-mas "BASS2", id: 1501689671
 mas "Bear", id: 1091189122
 mas "Bitwarden", id: 1352778147
 mas "Flighty", id: 1358823008
-mas "NBA 2K25 Arcade Edition", id: 6504000920
 mas "Numbers", id: 409203825
-mas "Oceanhorn 2", id: 1460715987
 mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
-mas "Prime Video", id: 545519333
-mas "Pure Paste", id: 1611378436
 mas "Slack", id: 803453959
-mas "Todoist", id: 585829637
-vscode "dracula-theme.theme-dracula"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode.remote-explorer"
-vscode "tempolabs.tempo"
