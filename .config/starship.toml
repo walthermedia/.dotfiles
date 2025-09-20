@@ -1,24 +1,33 @@
-general.import = [ "~/.config/themes/tokyonight/alacritty.toml" ]
 
-[env]
-TERM = "xterm-256color"
+add_newline = true
+command_timeout = 200
+format = "[$directory$git_branch$git_status]($style)$character"
 
-[font]
-normal = { family = "CaskaydiaMono Nerd Font", style = "Regular" }
-bold = { family = "CaskaydiaMono Nerd Font", style = "Bold" }
-italic = { family = "CaskaydiaMono Nerd Font", style = "Italic" }
-size = 16
+[character]
+error_symbol = "[✗](bold cyan)"
+success_symbol = "[❯](bold cyan)"
 
-[window]
-padding.x = 14
-padding.y = 14
-decorations = "buttonless"
+[directory]
+truncation_length = 2
+truncation_symbol = "…/"
+repo_root_style = "bold cyan"
+repo_root_format = "[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
 
-[window.dimensions]
-columns = 105
-lines = 35
+[git_branch]
+format = "[$branch]($style) "
+style = "italic cyan"
 
-[keyboard]
-bindings = [
-{ key = "F11", action = "ToggleFullscreen" }
-]
+[git_status]
+format     = '[$all_status]($style)'
+style      = "cyan"
+ahead      = "⇡${count} "
+diverged   = "⇕⇡${ahead_count}⇣${behind_count} "
+behind     = "⇣${count} "
+conflicted = " "
+up_to_date = " "
+untracked  = "? "
+modified   = " "
+stashed    = ""
+staged     = ""
+renamed    = ""
+deleted    = ""
